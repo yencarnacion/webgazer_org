@@ -1,0 +1,12 @@
+# Site settings
+title: WebGazer.org
+email: yencarnacion@webninjapr.com
+description: > # this means to ignore newlines until "baseurl:"
+  Yamir's Random Thoughts on the Web
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+url: "http://webgazer.org" # the base hostname & protocol for your site
+twitter_username: yencarnacion
+github_username:  yencarnacion
+
+# Build settings
+markdown: kramdown
