@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Why not Go?"
+date:   2016-02-23 23:00:00 -0400
+categories: update webgaze
+---
+Why not Go?
+================
+I wanted to share with you some performance data comparing the time it takes out to print "Hello World!\n" in a couple of popular server side languages.  
+
+You can see that Go outperformed everything else handily.  
+
+So my question to you is, why are we not using Go more in Puerto Rico? I don't think this language gets enough attention in Puerto Rico.  As to the "the lack of available trained software developers in Go" excuse, I submit to you that most software developers should be able to pick the basics of the language in less than a week.
+
+
+| OSX time command | cli Go   | compiled Go | Node.js  | Java     | Groovy   | compiled Groovy | Mono C#  |
+|:-----------------|:--------:|:-----------:|:--------:|:--------:|:--------:|:---------------:|:--------:|
+| real             | 0m0.013s | 0m0.006s    | 0m0.056s | 0m0.084s | 0m0.547s | 0m0.364s        | 0m0.031s |
+| user             | 0m0.005s | 0m0.001s    | 0m0.040s | 0m0.072s | 0m0.900s | 0m0.617s        | 0m0.020s |
+| sys              | 0m0.007s | 0m0.004s    | 0m0.015s | 0m0.018s | 0m0.087s | 0m0.060s        | 0m0.008s |
+
+Here is the software I used for the test:  
+go version go1.6 darwin/amd64  
+node version v5.6.0  
+Java(TM) SE Runtime Environment (build 1.8.0_40-b27)  
+Groovy Version: 2.4.6 JVM: 1.8.0_40 Vendor: Oracle Corporation OS: Mac OS X  
+Mono release is: 4.2 SR1 (4.2.2.30)  
+
+> `hello.go`  
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+        fmt.Printf("Hello World!\n")
+}
+```
+
+> `hello.js` (Node.js)  
+
+```javascript
+console.log("Hello World!\n");
+```
+
+
+> `Hello.java`  
+
+```java
+public class Hello {
+   public static void main(String[] args){
+      System.out.println("Hello World!\n");
+   }
+}
+```
+
+> `hello.groovy`  
+
+```groovy
+System.out.println("Hello World!\n");
+```
+
+> `hello.cs` (C#) 
+
+```csharp
+using System;
+ 
+public class HelloWorld
+{
+    static public void Main ()
+    {
+        Console.WriteLine ("Hello World!\n");
+    }
+}
+```
