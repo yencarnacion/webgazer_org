@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about/index.html
 ---
 
 My name is Yamir Encarnaci&oacute;n. I am a Software Developer located in San Juan, PR.  This is my Blog.
