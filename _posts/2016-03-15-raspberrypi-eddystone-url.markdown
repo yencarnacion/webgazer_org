@@ -6,6 +6,8 @@ categories: update tutorial
 css : custom.css
 ---
 
+Edit 2018-04-20:  A version of this post was featured March 27, 2016 on hackaday.com at [http://hackaday.com/2016/03/27/turn-your-rpi-3-into-a-ble-beacon/](http://hackaday.com/2016/03/27/turn-your-rpi-3-into-a-ble-beacon/).  Also visit [https://hackaday.io/project/10314-raspberry-pi-3-as-an-eddystone-url-beacon](https://hackaday.io/project/10314-raspberry-pi-3-as-an-eddystone-url-beacon) if this article interests you.
+
 This tutorial will show you how you can take your Raspberry Pi 3 and 
 turn it into an Eddystone URL beacon.
 
@@ -124,7 +126,7 @@ If you want to advertize a different URL enter the URL of the link that
 you want to advertize in the box below.
 &nbsp;
 
-<iframe src="http://yencarnacion.github.io/eddystone-url-calculator" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"> </iframe>
+<iframe src="https://yencarnacion.github.io/eddystone-url-calculator" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"> </iframe>
 
 &nbsp;
 
