@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "./webgazer_org/_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
