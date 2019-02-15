@@ -43,3 +43,8 @@ To recap, I believe we will soon see a lot of low cost, low power, massively par
 computing devices capable of extremely fast matrix multiplications for the purpose of 
 enabling Artificial Intelligence at the edge.  I called the massively parallel 
 computing devices “GPUs” in this post for lack of a better word.
+
+--
+Edit on February 14, 2019:  
+The article at [https://www.technologyreview.com/s/612722/cheaper-ai-for-everyone-is-the-promise-with-intel-and-facebooks-new-chip/](https://www.technologyreview.com/s/612722/cheaper-ai-for-everyone-is-the-promise-with-intel-and-facebooks-new-chip/),
+which I just learned about, validates my post.  It was published on January 7, 2019.
