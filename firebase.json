@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./webgazer_org/_site",
+    "public": "./yamir_dev/_site",
     "ignore": [
       "firebase.json",
       "**/.*",

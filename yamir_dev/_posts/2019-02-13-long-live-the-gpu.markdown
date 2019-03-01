@@ -48,3 +48,10 @@ computing devices “GPUs” in this post for lack of a better word.
 Edit on February 14, 2019:  
 The article at [https://www.technologyreview.com/s/612722/cheaper-ai-for-everyone-is-the-promise-with-intel-and-facebooks-new-chip/](https://www.technologyreview.com/s/612722/cheaper-ai-for-everyone-is-the-promise-with-intel-and-facebooks-new-chip/),
 which I just learned about, validates my post.  It was published on January 7, 2019.
+
+--
+Edit on February 18, 2019:  
+The article [Facebook joins Amazon and Google in AI chip race](https://www.ft.com/content/1c2aab18-3337-11e9-bd3a-8b2a211d90d5) published
+by the Financial Times on February 19, 2019 in the UK (hence the time travel) is also related.
+
+
